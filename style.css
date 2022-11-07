@@ -1,0 +1,83 @@
+.data-container {
+	/* max-width: 90%; */
+	margin-top:10px;
+}
+
+.tab-left {
+	display: inline-block;
+	min-width:260px;
+}
+
+.tab-box {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+.tab-box:first-child {
+	margin-top: 7px;
+}
+
+input.chkbox {
+	margin-top: 3px;
+}
+
+.chkbox-wrap {
+	width: 174px;
+	text-align: right;
+}
+
+.stats-box {
+	width:fit-content;
+	max-width: 90%;
+	max-height:200px;
+	overflow:auto;
+	display: block;
+	padding: 2px 10px 2px 4px;
+	border: 1px solid;
+	box-shadow: 0px 0px 4px grey;
+
+}
+
+.stats-table {
+	font-size: 16px;
+	line-height: initial;
+}
+
+.exp-text {
+	margin-left:10px;
+}
+
+.stat-name {
+	padding-right: 15px;
+}
+
+.stat-value {
+	padding-right: 15px;
+	text-align: center;
+}
+
+.value-excelent {
+	color: darkgreen;
+}
+
+.value-very-good {
+	color: green;
+}
+
+.value-good {
+	color:forestgreen ;
+}
+
+.value-OK {
+	color: olive;
+}
+
+.value-bad {
+	color: lightcoral;
+}
+
+.value-very-bad, .value-quite-bad {
+	color: red;
+}
+
